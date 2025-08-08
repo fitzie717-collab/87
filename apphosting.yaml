@@ -1,0 +1,18 @@
+
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+  # Increase the timeout for server-side rendering and API requests
+  # to allow for longer-running tasks like AI analysis.
+  timeoutSeconds: 120
+
+# Required for Genkit to work on App Hosting
+# Pin to a specific version of Node.js
+# https://firebase.google.com/docs/app-hosting/build-run-spec#nodejs
+runtime: nodejs20
+
+    
